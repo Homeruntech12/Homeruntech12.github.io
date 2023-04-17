@@ -1,0 +1,99 @@
+/* Reset styles for consistency across different browsers */
+html, body, ul, li, h1, h2, h3, p, form, input, textarea {
+	margin: 0;
+	padding: 0;
+}
+
+/* Set font and background color */
+body {
+	font-family: Arial, sans-serif;
+	color: #333;
+	background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+	background-color: #ffffff;
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #0077cc;
+}
+
+h1, h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Style the main content */
+main {
+	margin: 20px;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+section {
+	margin: 50px 0;
+}
+
+ul {
+	margin-left: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+form input[type="submit"] {
+	background-color: #0077cc;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background-color: #0063aa;
+}
+
+footer {
+	background-color: #ffffff;
+	padding: 20px;
+	box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
