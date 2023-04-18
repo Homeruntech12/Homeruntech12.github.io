@@ -13,8 +13,7 @@ body {
 
 /* Style the header */
 header {
-	font-family: Brush Script MT, sans-serif;
-	<font color="#FF0000">
+	font-family: Copperplate, sans-serif;
 	background-color: #ffffff;
 	padding: 20px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
