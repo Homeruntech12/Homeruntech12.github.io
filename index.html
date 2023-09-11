@@ -1,71 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Home Run Tech</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Fake Google Login</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </head>
 <body>
-	<header>
-		<div class="container">
-			<h1>Home Run Tech</h1>
-			<nav>
-				<ul>
-					<li><a href="#services">Services</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contact Us</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-
-	<main>
-		<section id="services">
-			<div class="container">
-				<h2>Our Services</h2>
-				<ul>
-					<p>At our tech company, our mission is to empower people with technology by providing reliable and personalized support in the comfort of their own homes. We understand that technology can be intimidating and frustrating, and our goal is to alleviate that stress by delivering exceptional service that is tailored to each individual's unique needs. We believe in building meaningful relationships with our clients, and we are committed to providing exceptional customer service that exceeds expectations. Our mission is to empower people to harness the full potential of technology and enjoy the benefits it can bring to their lives. Here is a list of some of the services we provide.</p>
-				<ul>
-				<br>
-					<li>Computer repairs</li>
-					<li>Cellphone repairs</li>
-					<li>Smart television repairs</li>
-					<li>Ipad and tablet repairs</li>
-					<li>TV mounting and set up</li>
-					<li>New device set up</li>
-					<li>Virus and malware removal</li>
-					<li>Software installation and upgrades</li>
-					<li>Hardware upgrades and replacement</li>
-					<li>Data backup and recovery</li>
-					<li>General tech repairs and maintenance</li>
-				</ul>
-			</div>
-		</section>
-
-		<section id="about">
-			<div class="container">
-				<h2>About Us</h2>
-				<p>Home Run Tech is a company that specializes in providing at-home tech repair services. Our team of experienced technicians will come to your home or office to diagnose and fix any computer or tech-related issues you may have.</p>
-			</div>
-		</section>
-
-		<section id="contact">
-			<div class="container">
-				<h2>Contact Us</h2>
-				<br>
-				<p>You can reach out to us at this email:
-				<a href=mailto:“homerun.tech12@gmail.com”>homerun.tech12@gmail.com</a>
-				<br>
-				<br>
-				<p>Or you can call or text us at: (352)-581-2963</p>
-			</div>
-		</section>
-	</main>
-
-	<footer>
-		<div class="container">
-			<p>&copy; 2023 Home Run Tech. All rights reserved.</p>
-		</div>
-	</footer>
+        <div class="center">
+                <div class="create-account">
+                    <div class="">
+                        <div class="account-wall">
+                            <div id="my-tab-content" class="tab-content">
+                                    <div class="tab-pane active" id="login">
+        <img id="profile-img" class="profile-img-card" src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+        <p id="profile-name" class="profile-name-card"></p>
+        <form class="form-signin">
+            <span id="reauth-email" class="reauth-email"></span>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Enter your email" required autofocus>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <div id="remember" class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <a href="#" class="create-account">
+                    Create account
+                </a>
+                <div class="btn-right"><button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+                </div>
+        </form><p></p>
+        <a href="#" class="forgot-password">
+            Forgot the password?
+        </a><p></p>
+        Not your computer? Use Guest mode to sign in privately.<a href="#" class="learn-more">
+                Learn more
+            </a>
+            
 </body>
 </html>
